@@ -1,0 +1,123 @@
+:root {
+  --first-text--color: #252b42;
+  --second-text-color: #737373;
+  --third-color: #fa4a0c;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+
+  color: var(--first-text--color);
+
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-text-block,
+.account-text-wrapper,
+.download-section-heading,
+.download-section-par {
+  padding: 0px 5px;
+}
+
+.footer-and-header {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 16px 59px;
+  color: white;
+  background-color: var(--third-color);
+}
+
+.bg-section {
+  text-align: center;
+}
+
+.app-section {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.account-content-container {
+  text-align: center;
+  display: flex;
+}
+
+.account-text-wrapper {
+  padding-top: 100px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.account-small-heading {
+  color: var(--third-color);
+  letter-spacing: 0.1px;
+  font-size: 0.8rem;
+}
+
+.account-big-heading {
+  margin: 17px 0px;
+  font-size: 1.3rem;
+  line-height: 1.3;
+}
+
+.account-text {
+  color: var(--second-text-color);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.account-img-wrapper {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .account-content-container {
+    text-align: left;
+    justify-content: space-between;
+  }
+
+  .account-text-wrapper {
+    padding-top: 200px;
+  }
+
+  .account-img-wrapper {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .account-small-heading {
+    font-size: 1rem;
+  }
+  .account-big-heading {
+    font-size: 1.66rem;
+    line-height: 1.43;
+  }
+  .account-text {
+    font-size: 1rem;
+  }
+}

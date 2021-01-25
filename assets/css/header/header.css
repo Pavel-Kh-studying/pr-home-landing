@@ -1,0 +1,125 @@
+.header-nav-section {
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+}
+
+.header-info-section {
+  padding-top: 73px;
+  padding-bottom: 160px;
+  background-color: #fafafa;
+}
+
+.header-text-block {
+  margin-bottom: 54px;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pre-h1-text {
+  display: block;
+  margin-bottom: 17px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+}
+
+.heading-h1 {
+  font-family: "Poppins", sans-serif;
+  margin: 17px 0px;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.post-h1-text {
+  display: block;
+  margin-top: 17px;
+  font-weight: 500;
+  line-height: 1.58;
+  color: var(--second-text-color);
+}
+
+.header-link-block {
+  max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 54px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-playstore-link {
+  margin-bottom: 30px;
+}
+
+.header-appstore-link,
+.header-playstore-link {
+  letter-spacing: 0.1px;
+}
+
+.header-img-block {
+  position: relative;
+}
+
+.header-app-img {
+  width: 320px;
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 170px);
+}
+
+@media screen and (min-width: 425px) {
+  .header-nav-section {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-info-section {
+    background-image: url(../../images/background-img/header-bg);
+  }
+
+  .header-text-block {
+    color: white;
+  }
+
+  .pre-h1-text {
+    color: inherit;
+  }
+
+  .post-h1-text {
+    color: inherit;
+  }
+
+  .header-link-block {
+    max-width: 768px;
+    display: block;
+    flex-wrap: nowrap;
+  }
+  .header-playstore-link {
+    margin-right: 34px;
+    margin-bottom: 0px;
+  }
+
+  .header-app-img {
+    width: 548px;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 285px);
+  }
+
+  .header-nav-section {
+    padding-top: 26px;
+    padding-bottom: 28px;
+    padding-right: 40px;
+    padding-left: 70px;
+  }
+
+  .heading-h1 {
+    font-size: 2.42rem;
+    line-height: 1.38;
+  }
+}

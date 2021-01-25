@@ -1,0 +1,9 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap");
+@import "./common.css";
+
+@import "./header/header.css";
+@import "./create-account/create-account.css";
+@import "./shop/shop.css";
+@import "./download/download.css";
+@import "./footer/footer.css";

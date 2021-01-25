@@ -1,0 +1,42 @@
+.download-section {
+  padding: 130px 0px;
+  color: white;
+  background-color: var(--first-text--color);
+} 
+
+.download-section-heading {
+  font-size: 1.66rem;
+  line-height: 1.43;
+}
+
+.download-section-par {
+  font-weight: 500;
+  line-height: 38px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.download-section-playstore-link,
+.download-section-appstore-link {
+  font-size: 0.66rem;
+}
+
+.download-section-playstore-link {
+  margin-bottom: 34px;
+}
+
+@media screen and (min-width: 768px) {
+  .download-section {
+    background-image: url(../../images/background-img/download-bg);
+  }
+
+  .download-link-block {
+    display: block;
+    flex-wrap: nowrap;
+  }
+
+  .download-section-playstore-link {
+    margin-right: 34px;
+    margin-bottom: 0px;
+  }
+}
